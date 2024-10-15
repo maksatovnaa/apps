@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #4a3f6b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    justify-content: start;
+}
+
+.apps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.appstitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.appstitle img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.appstitle p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.appstitle:hover {
+    background-color: #ddd;
+}
+
+.add-item {
+    font-size: 18px;
+    
+   
+}
+.add-item p{
+    background-color: #4CAF50;
+    width: 52px;
+    height: 23px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.add-more {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-more:hover {
+    background-color: #0056b3;
+}
+
+p{
+    color: #7a7474;
+}
